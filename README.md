@@ -10,3 +10,5 @@ b) Run the program
 ./xxx
 
 c) Debug the progma should add -g
+
+Note that the std::cout can all be removed, they are used to debug only.
