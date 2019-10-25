@@ -1,14 +1,16 @@
 # ThreadPool-and-Asynchronous-log
-An implementation of threadpool and asynchronous log, each head file (.h) with a source file (.cpp). Because of the simple dependencies between files，we just use source file for test, the implementations of classes are all in the head files.
+An implementation of threadpool and asynchronous log. We use cmake to compile these files. Test files are all in the test folder.
 
-a) To Compile source files into binary executables
 
-g++ -std=c++11 xxx.cpp -o xxx -lpthread
+a) To Compile source files into binary executables (in the root folder)
 
-b) Run the program
+mkdir build && cd build
+cmake ..
+make
+
+b) Run the program (in the build folder)
 
 ./xxx
 
-c) Debug the progma should add -g
 
 Note that the std::cout can all be removed, they are used to debug only.
