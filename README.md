@@ -5,7 +5,9 @@ An implementation of threadpool and asynchronous log. We use cmake to compile th
 a) To Compile source files into binary executables (in the root folder)
 
 mkdir build && cd build
+
 cmake ..
+
 make
 
 b) Run the program (in the build folder)
