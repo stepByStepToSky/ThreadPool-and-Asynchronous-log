@@ -1,4 +1,5 @@
-# ThreadPool-and-Asynchronous-log
+# ThreadPool and Asynchronous log
+##
 An implementation of threadpool and asynchronous log. We use cmake to compile these files. Test files are all in the test folder.
 
 
