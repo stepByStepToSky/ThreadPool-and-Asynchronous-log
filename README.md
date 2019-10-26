@@ -16,4 +16,4 @@ b) Run the program (in the build folder)
 ./xxx
 
 
-Note that the std::cout can all be removed, they are used to debug only.
+Note that the async log can be used in multi process environment, however, they write into difference log files. And std::cout can all be removed, they are used to debug only.
