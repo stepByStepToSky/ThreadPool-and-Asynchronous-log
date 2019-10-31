@@ -3,16 +3,16 @@ An implementation of threadpool and asynchronous log. We use cmake to compile th
 
 
 a) To Compile source files into binary executables (in the root folder)
-
+```cmd
 mkdir build && cd build
-
 cmake ..
-
 make
+```
 
 b) Run the program (in the build folder)
-
+```
 ./xxx
+```
 
 ## Example
 ```c++
@@ -36,4 +36,4 @@ int main()
 ```
 
 
-Note that the async log can be used in multi process environment, however, they write into difference log files. And std::cout can all be removed, they are used to debug only.
+- Note that the async log can be used in multi process environment, however, they write into difference log files. And std::cout can all be removed, they are used to debug only.
