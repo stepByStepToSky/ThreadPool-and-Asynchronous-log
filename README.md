@@ -10,7 +10,7 @@ make
 ```
 
 b) Run the program (in the build folder)
-```
+```cmd
 ./xxx
 ```
 
