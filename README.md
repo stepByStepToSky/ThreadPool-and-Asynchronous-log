@@ -1,5 +1,4 @@
-# ThreadPool and Asynchronous log
-##
+## ThreadPool and Asynchronous log
 An implementation of threadpool and asynchronous log. We use cmake to compile these files. Test files are all in the test folder.
 
 
@@ -14,6 +13,27 @@ make
 b) Run the program (in the build folder)
 
 ./xxx
+
+## Example
+```c++
+//main.cpp
+#include <iostream>
+#include "log.h"
+
+int main()
+{
+	ERRLOG("xiao cai");
+	DEBUGLOG("xiao fan");
+	
+	ERRLOG("xiaocai %d%d%d%d", 0, 8, 1, 2);
+	DEBUGLOG("xiaofan %d%d%d%d", 0, 9, 1, 4);
+}
+
+/*
+    g++ -g -std=c++11 main.cpp -o main ./libasynclogStaticLib.a  -lpthread
+    ./main
+*/
+```
 
 
 Note that the async log can be used in multi process environment, however, they write into difference log files. And std::cout can all be removed, they are used to debug only.
