@@ -28,11 +28,10 @@ int main()
 	ERRLOG("xiaocai %d%d%d%d", 0, 8, 1, 2);
 	DEBUGLOG("xiaofan %d%d%d%d", 0, 9, 1, 4);
 }
-
-/*
-    g++ -g -std=c++11 main.cpp -o main ./libasynclogStaticLib.a  -lpthread
-    ./main
-*/
+```
+```cmd
+g++ -g -std=c++11 main.cpp -o main ./libasynclogStaticLib.a  -lpthread
+./main
 ```
 
 
