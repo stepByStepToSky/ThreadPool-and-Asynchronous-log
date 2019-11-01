@@ -34,8 +34,8 @@ g++ -g -std=c++11 main.cpp -o main ./libasynclogStaticLib.a  -lpthread
 ./main
 ```
 
-
-- Note that the async log can be used in multi process environment, however, they write into difference log files. And std::cout can all be removed, they are used to debug only.
-
 ## Log doc
 [Asynchronous Log Readme](https://github.com/stepByStepToSky/ThreadPool-and-Asynchronous-log/blob/master/Log%20doc.md)
+
+
+- Note that the async log can be used in multi process environment, however, they write into difference log files. And std::cout can all be removed, they are used to debug only.
